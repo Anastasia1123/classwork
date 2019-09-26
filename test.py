@@ -1,5 +1,8 @@
 import unittest
+
 from main import sum_of_list
+
+
 class TestSum(unittest.TestCase):
     def test_sum_of_integers(self):
         data = [1, 2, 3, 4] # Arrange
